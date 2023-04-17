@@ -11,21 +11,22 @@
             <div class="buyukKutu">
 
 
-            <div class="kutu" >
-                <div class="altKutu"; style="background-color: darkgreen; margin-top : 110px">asjdaskdjas</div>
-            </div>
-
-
-
-            <div class="kutu" >Electronic Lamp
-            <div class="altKutu"; style="background-color: darkgreen; margin-top : 110px">asjdaskdjas</div>
-            </div>
-            <div class="kutu" >
-            <div class="altKutu"; style="background-color: darkgreen; margin-top : 110px">asjdaskdjas</div>
-            </div>
-            <div class="kutu" >
-            <div class="altKutu"; style="background-color: darkgreen; margin-top : 110px">asjdaskdjas</div>
-            </div>
+            <div class="div-block">
+        <img src="isikladirma.jpg" alt="asd">
+        
+    </div>
+            <div class="div-block">
+        <img src="kombii!!.jpg" alt="Easd">
+        
+    </div>
+            <div class="div-block">
+        <img src="lamp.jpg" alt="Easdas">
+        
+    </div>
+            <div class="div-block">
+        <img src="süpürge.jpg" alt="asd">
+        
+    </div>
             </div>
             
             
