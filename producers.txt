@@ -1,0 +1,3 @@
+producertest1:producerpassword1
+producertest2:producerpassword2
+producertest3:producerpassword3

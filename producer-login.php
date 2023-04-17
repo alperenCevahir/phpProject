@@ -6,9 +6,9 @@
         $password = $_POST["password"];
 
       // Open the file for reading
-			$fp = fopen("consumers.txt", "r");
+			$fp = fopen("producers.txt", "r");
 
-			// Read the consumers.txt file line by line
+			// Read the producers.txt file line by line
 			while (!feof($fp)) {
 				// Gets the current line and splits it to username and password
 				$line = fgets($fp);
@@ -19,7 +19,7 @@
 				// Checks if the entered username and passowrd are correct
 				if ($username == $storedUsername && $password == $storedPassword) {
 					// Redirect user to home page after successful login
-					header("Location: consumer-home.php");
+					header("Location: producer-home.php");
 					exit;
 				}
 			}
@@ -32,18 +32,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Consumer Login</title>
+    <title>Producer Login</title>
 </head>
-<body style="background-color: grey;">
-    <h2 style="text-align: center; margin-top:150px">Consumer Login</h2>
-    <div style="text-align: center; margin-top:20px">
-    <form action="consumer-login.php" method="post">
+<body>
+    <h2>Producer Login</h2>
+    <form action="producer-login.php" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username"><br><br>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password"><br><br>
         <input type="submit" value="Login">
     </form>
-    </div>
 </body>
 </html>
