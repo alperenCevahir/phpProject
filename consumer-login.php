@@ -1,15 +1,31 @@
 <?php
     // I check if the form is submitted
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Retrieve the form data
+        // Get the form data
         $username = $_POST["username"];
         $password = $_POST["password"];
 
-        // I will add authentication here
+      // Open the file for reading
+			$fp = fopen("users.txt", "r");
 
-        // Redirect user to home page after successful login
-        header("Location: home.php");
-        exit;
+			// Read the users.txt file line by line
+			while (!feof($fp)) {
+				// Gets the current line and splits it to username and password
+				$line = fgets($fp);
+				$parts = explode(":", $line);
+				$storedUsername = trim($parts[0]);
+				$storedPassword = trim($parts[1]);
+
+				// Checks if the entered username and passowrd are correct
+				if ($username == $storedUsername && $password == $storedPassword) {
+					// Redirect user to home page after successful login
+					header("Location: home.php");
+					exit;
+				}
+			}
+
+			echo "Invalid username or password";
+		
     }
 ?>
 
