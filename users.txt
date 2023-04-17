@@ -1,3 +1,0 @@
-usertest1:testpassword1
-usertest2:testpassword2
-usertest3:testpassword3

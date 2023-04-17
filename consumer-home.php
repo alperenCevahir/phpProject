@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
         <body>
             
-            <p class="baslik">HOME AUTOMATİON DASHBOARD</p>
+            <p class="baslik">HOME AUTOMATION DASHBOARD</p>
 
             <div class="buyukKutu">
 

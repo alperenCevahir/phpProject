@@ -1,0 +1,3 @@
+consumertest1:consumerpassword1
+consumertest2:consumerpassword2
+consumertest3:consumerpassword3
