@@ -3,6 +3,8 @@
     background-color: darkgray;
  }
  .kutu{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 450;
     height: 160;
     border: 2px solid black;
@@ -25,4 +27,10 @@
     font-weight: 700;
     font-size: xx-large;
     position: sticky;
+}
+.altKutu{
+    width: 480px;
+    height: 50px;
+    position: fixed;
+    margin-right: 15px;
 }

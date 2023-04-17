@@ -34,8 +34,9 @@
 <head>
     <title>Consumer Login</title>
 </head>
-<body>
-    <h2>Consumer Login</h2>
+<body style="background-color: grey;">
+    <h2 style="text-align: center; margin-top:150px">Consumer Login</h2>
+    <div style="text-align: center; margin-top:20px">
     <form action="consumer-login.php" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username"><br><br>
@@ -43,5 +44,6 @@
         <input type="password" id="password" name="password"><br><br>
         <input type="submit" value="Login">
     </form>
+    </div>
 </body>
 </html>
